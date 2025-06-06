@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Buttom } from "../Components/atoms/Buttom"
 import { Header } from "../Components/organisms/Header"
 import { Globe, Users, MapPin } from "lucide-react"
@@ -44,11 +45,11 @@ export const LandingPage = () => {
           </div>
 
           <div className="space-y-4">
-            <a href="/countries">
+            <Link to="/countries">
               <Buttom size="lg" className="text-lg px-8 py-4">
                 Explorar Países
               </Buttom>
-            </a>
+            </Link>
             <p className="text-sm text-gray-500 dark:text-gray-400">Haz clic para comenzar tu viaje por el mundo</p>
           </div>
         </div>

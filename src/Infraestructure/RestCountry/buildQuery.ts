@@ -1,0 +1,1 @@
+export const buildQuery = (fields: readonly string[]) => `?fields=${fields.join(",")}`;
