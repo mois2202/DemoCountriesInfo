@@ -1,4 +1,4 @@
-import { Route, Routes, useParams } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import { LandingPage } from "./Pages/Landing"
 import { CountriesPage } from "./Pages/Contries"
 import RootLayout from "./Components/commons/RootLayout"
